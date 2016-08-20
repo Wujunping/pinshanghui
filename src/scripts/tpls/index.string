@@ -1,0 +1,23 @@
+<div class="m-index">
+  <header>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="images/bn1.jpg" alt=""/>
+          </div>
+          <div class="swiper-slide">
+              <img src="images/bn2.jpg" alt=""/>
+          </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      
+    </div>
+
+  </header>
+  <section>
+
+  </section>
+  <footer>
+
+  </footer>
+</div>
