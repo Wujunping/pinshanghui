@@ -4,4 +4,4 @@ require('./libs/swiper-3.3.1.min.js');
 //views
 require('./views/index.js');
 // require('./views/home.js');
-// require('./views/category.js');
+ require('./views/category.js');

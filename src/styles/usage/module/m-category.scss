@@ -1,0 +1,104 @@
+.p-index{
+  width:100%;
+  height:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  header{
+    width:100%;
+    height:.44rem;
+    background:#fff;
+    padding: 6px 10px;
+    @include border(0 0 1px 0,#a6a6a6);
+    @include flexbox();
+    position: relative;
+    form{
+        width: 100%;
+        background: #eff0f4;
+        height: .3rem;
+        @include flexbox();
+        @include border(1px,#d7d7d7,solid,5px);
+        span{
+            display: block;
+            width:.27rem;
+            height: 100%;
+            text-align: center;
+            line-height:.3rem;
+            font-size: 14px;
+
+        }
+        input{
+            @include flex();
+            height: 100%;
+            outline: none;
+            border: none;
+            background: #eff0f4;
+            font-size: 12px;
+            line-height:.3rem;
+
+
+
+    }
+    }
+
+  }
+  section{
+    @include flex();
+    @include flexbox();
+    width:100%;
+    article{
+        width: 100px;
+        height: 100%;
+        li{
+            width: 100%;
+            height: 49px;
+            text-align: center;
+            line-height: 49px;
+            font-size: 12px;
+            @include border(0 0 1px 0,#a6a6a6);
+            color: #333;
+        }
+        li.active{
+         background:#fff;
+         color: red;
+        }
+    }
+    aside{
+        @include flex();
+        background: #fff;
+        height: 100%;
+        ul {
+
+         width: 100%;
+         height: 100%;
+
+         @include flexbox();
+         @include flex-wrap(wrap);
+         @include align-content(flex-start);
+         display: none;
+
+         li {
+           width: 50%;
+
+           i, b {
+             display: block;
+           }
+           i {
+              width: 80%;
+              margin: 0 auto;
+             img {
+               width: 100%;
+             }
+           }
+           b {
+             font-weight: normal;
+             font-size: 12px;
+             padding: .04rem;
+            text-align: center;
+             background: #fff;
+           }
+         }
+       }
+    }
+
+  }
+}

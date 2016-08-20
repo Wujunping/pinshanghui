@@ -9,8 +9,8 @@ module.exports = {
       respondwith: './livelist-more.json'
     },
     {
-      pattern: /\/api\/livelist\.php\?type=refresh/,
-      respondwith: './livelist-refresh.json'
+      pattern: /\/api\/yijian\.php\?type=more\&pageNo=3/,
+      respondwith: './yijian.json'
     }
   ]
 };
