@@ -11,6 +11,10 @@ module.exports = {
     {
       pattern: /\/api\/yijian\.php\?type=more\&pageNo=3/,
       respondwith: './yijian.json'
+    },
+     {
+      pattern: /\/api\/livelist\.php\?type=refresh/,
+      respondwith: './livelist-refresh.json'
     }
   ]
 };
