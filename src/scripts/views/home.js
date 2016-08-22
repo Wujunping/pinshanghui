@@ -1,5 +1,4 @@
 var homeTpl = require('../tpls/home.string');
-var scroll = require('../utils/scroll.js');
 
 //定义视图
 SPA.defineView('home',{

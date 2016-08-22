@@ -1,5 +1,4 @@
 var indexTpl = require('../tpls/index.string');
-var scroll = require('../utils/scroll.js');
 
 //定义视图
 SPA.defineView('index',{
