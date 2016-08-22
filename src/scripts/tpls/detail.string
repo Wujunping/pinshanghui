@@ -1,0 +1,101 @@
+<div class="p1-index">
+  <header>
+	<form class="yo-search">
+	<span class="yo-ico">&#xf067;</span>
+	<input type="text" class="input" placeholder="输入搜索关键字..." />
+	</form>
+  </header>
+  <nav>
+  	<ul>
+  		<li>人气</li>
+  		<li>销量</li>
+  		<li>价格</li>
+  	</ul>
+  </nav>
+  <section spa-widget="scroll" id="home-swiper" data-scroll-id="myScroll">
+  	<div>
+	  	<div class="head">
+	        <img src="/pinshanghui/images/arrow.png"/>
+	        <span>下拉刷新...</span>
+	    </div>
+	  	<ul>
+	  		<li>
+	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
+	  			<div>
+		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
+		  			<span>精巧小猫 美丽味道</span>
+		  			<strong>¥188.00</strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li>
+	 		<li>
+	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
+	  			<div>
+		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
+		  			<span>精巧小猫 美丽味道</span>
+		  			<strong>¥188.00</strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li>
+	  		 		<li>
+	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
+	  			<div>
+		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
+		  			<span>精巧小猫 美丽味道</span>
+		  			<strong>¥188.00</strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li>
+	  		 		<li>
+	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
+	  			<div>
+		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
+		  			<span>精巧小猫 美丽味道</span>
+		  			<strong>¥188.00</strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li>
+	 		<li>
+	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
+	  			<div>
+		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
+		  			<span>精巧小猫 美丽味道</span>
+		  			<strong>¥188.00</strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li>
+	 		<li>
+	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
+	  			<div>
+		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
+		  			<span>精巧小猫 美丽味道</span>
+		  			<strong>¥188.00</strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li>
+	  		 		<li>
+	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
+	  			<div>
+		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
+		  			<span>精巧小猫 美丽味道</span>
+		  			<strong>¥188.00</strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li>
+	  		 		<li>
+	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
+	  			<div>
+		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定最后一个</b>
+		  			<span>精巧小猫 美丽味道</span>
+		  			<strong>¥188.00</strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li> 		
+	  	</ul>
+	  	<div class="foot">
+	        <img src="/pinshanghui/images/arrow.png"/>
+	        <span>上拉加载更多...</span>
+	    </div>
+	</div>
+  </section>
+</div>

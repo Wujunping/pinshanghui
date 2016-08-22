@@ -6,7 +6,7 @@
 		</form>
   </header>
   <section>
-  	<article>
+  	<article spa-widget="scroll">
   		<ul id="index1-nav">
   			<li class="active" action-type='switch'>一键选酒</li>
   			<li action-type='switch'>葡萄酒</li>
@@ -15,37 +15,39 @@
   			<li action-type='switch'>酒具</li>
   		</ul>
   	</article>
-  	<aside>
-  		<ul>
-  			<li ms-repeat-el="livelist">
-          <i><img ms-src="el.img" alt=""></i>
-          <b ms-text="el.cat_name"></b>
-       </li>
-  		</ul>
-  		  		<ul>
-  			<li ms-repeat-el="livelist1">
-          <i><img ms-src="el.img" alt=""></i>
-          <b ms-text="el.cat_name"></b>
-       </li>
-  		</ul>
-  		  		<ul>
-  			<li ms-repeat-el="livelist2">
-          <i><img ms-src="el.img" alt=""></i>
-          <b ms-text="el.cat_name"></b>
-       </li>
-  		</ul>
-  		  		<ul style="display: block;display: flex">
-  			<li ms-repeat-el="livelist3">
-          <i><img ms-src="el.img" alt=""></i>
-          <b ms-text="el.cat_name"></b>
-       </li>
-  		</ul>
-  		  		<ul>
-  			<li ms-repeat-el="livelist4">
-          <i><img ms-src="el.img" alt=""></i>
-          <b ms-text="el.cat_name"></b>
-       </li>
-  		</ul>
+  	<aside id="index2-nav" spa-widget="scroll">
+  		<div class="scroll_container">
+	  		<ul class="active1">
+	  			<li ms-repeat-el="livelist">
+	          <i><img ms-src="el.img" alt=""></i>
+	          <b ms-text="el.cat_name"></b>
+	       	</li>
+	  		</ul>
+	  		<ul>
+	  			<li ms-repeat-el="livelist1">
+	          <i><img ms-src="el.img" alt=""></i>
+	          <b ms-text="el.cat_name"></b>
+	       	</li>
+	  		</ul>
+	  		<ul>
+	  			<li ms-repeat-el="livelist2">
+	          <i><img ms-src="el.img" alt=""></i>
+	          <b ms-text="el.cat_name"></b>
+	        </li>
+	  		</ul>
+	  		<ul>
+	  			<li ms-repeat-el="livelist3">
+	          <i><img ms-src="el.img" alt=""></i>
+	          <b ms-text="el.cat_name"></b>
+	       	</li>
+	  		</ul>
+	  		<ul>
+	  			<li ms-repeat-el="livelist4">
+	          <i><img ms-src="el.img" alt=""></i>
+	          <b ms-text="el.cat_name"></b>
+	       	</li>
+	  		</ul>
+  		</div>
   	</aside>
   </section>
 </div>

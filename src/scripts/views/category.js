@@ -10,6 +10,7 @@ var indexSearch = require('../tpls/category.string');
 
 SPA.defineView('category', {
   html: indexSearch,
+  // 定义插件
   	plugins: [{
     name: 'avalon',
     options: function (vm) {
@@ -19,9 +20,10 @@ SPA.defineView('category', {
       vm.livelist3 = [];
       vm.livelist4 = [];
     }
-  },'delegated'],
-// 定义插件
-  //plugins: [],
+  },
+  //点击事件的插件
+    'delegated'],
+
   // 绑定视图事件
   bindEvents: {
     'show': function () {
@@ -36,7 +38,8 @@ SPA.defineView('category', {
           pageNo: 3
         },
         success: function (res) {
-          //console.log(res.result.list[0].cat_list)
+          //console.log(res.result.list[0].cat_list);
+          //返回商品数据
           vm.livelist = res.result.list[0].cat_list;
           vm.livelist1 = res.result.list[1].cat_list;
           vm.livelist2 = res.result.list[2].cat_list;
@@ -49,7 +52,10 @@ SPA.defineView('category', {
     // 绑定tap事件
   bindActions: {
     'switch': function (el) {
-      console.log(11);
+    	console.log($(el.el));
+      console.log($(el.el).index());
+      $(el.el).addClass("active").siblings().removeClass('active');
+      $('#index2-nav ul').eq($(el.el).index()).addClass('active1').siblings().removeClass('active1');
       //$('#index1-nav li').eq($(el.el).index()).addClass('active')
        // .siblings().removeClass('active');
     }

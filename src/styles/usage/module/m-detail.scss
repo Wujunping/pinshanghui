@@ -1,0 +1,162 @@
+.p1-index{
+  width:100%;
+  height:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  header{
+    width:100%;
+    height:.44rem;
+    background:#fff;
+    padding: 6px 10px;
+    @include border(0 0 1px 0,#a6a6a6);
+    @include flexbox();
+    position: relative;
+    form{
+        width: 100%;
+        background: #eff0f4;
+        height: .3rem;
+        @include flexbox();
+        @include border(1px,#d7d7d7,solid,5px);
+        span{
+            display: block;
+            width:.27rem;
+            height: 100%;
+            text-align: center;
+            line-height:.3rem;
+            font-size: 14px;
+
+        }
+        input{
+            @include flex();
+            height: 100%;
+            outline: none;
+            border: none;
+            background: #eff0f4;
+            font-size: 12px;
+            line-height:.3rem;
+    }
+    }
+  }
+  nav{
+    height: .44rem;
+    width: 100%;
+    ul{
+        width: 100%;
+        height: 100%;
+        @include flexbox();
+        @include justify-content(space-around);
+        li{
+            height: 100%;
+            text-align: center;
+            line-height: .44rem;
+        }
+    }
+  }
+  section{
+      @include flex();
+      background:#fff;
+      width: 100%;
+      ul{
+          width: 100%;
+          li{
+              width: 100%;
+              height: 1.3rem;
+              @include flexbox();
+              i{
+                  width: 31%;
+                  height: 100%;
+                  display: block;
+                  @include flexbox(); 
+                  img{
+                      display: block;
+                      width: 100%;
+                      margin: auto 0;
+                      @include align-content(center);
+                      
+                  }
+              }
+              div{
+                  @include flex();
+                  @include flexbox();
+                  @include flex-direction(column);
+                  @include justify-content(space-around);
+                 
+                  position: relative;
+                  b{
+                      font-size: 13px;
+                      font-weight: normal;
+                      color: #222;
+                  }
+                  span{
+                      color: #f36d01;
+                      font-size: 13px;
+                  }
+                  strong{
+                      height: 48px;
+                      width: 100%;
+                      line-height: 48px;
+                      color: #d63534;
+                      font-size: 13px;
+                  }
+                  em{
+                    position: absolute;
+                    width:40px ;
+                    height: 48px;
+                    right: 0;
+                    bottom: 0;
+                  
+                    @include flexbox();
+                    @include justify-content(center);
+                    img{
+                        margin-top:10px ;
+                        width: 28px;
+                        height: 28px;
+                        @include align-content(center);
+                   
+                    }
+                  }
+              }
+              
+          }
+      }
+         // pull-to-refresh
+    .head {
+        text-align: center;
+        height: .35rem;
+        line-height: .35rem;
+        display: none;
+    }
+    .head img {
+        width: .16rem;
+        height: .16rem;
+        display: inline-block;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        transition: transform 150ms;
+        -webkit-transition: transform 150ms;
+    }
+    .up {
+        transform: rotate(360deg) !important;
+        -webkit-transform: rotate(360deg) !important;
+    }
+    .foot {
+        text-align: center;
+        height: .35rem;
+        line-height: .35rem;
+        display: none;
+    }
+    .foot img {
+        width: .16rem;
+        height: .16rem;
+        display: inline-block;
+        /*transform: rotate(0deg);*/
+        /*-webkit-transform: rotate(0deg);*/
+            transition: transform 150ms;
+            -webkit-transition: transform 150ms;
+        }
+        .down {
+            transform: rotate(180deg) !important;
+            -webkit-transform: rotate(180deg) !important;
+        }
+  }
+}

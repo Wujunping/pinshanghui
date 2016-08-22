@@ -1,5 +1,9 @@
 // pullToRefresh
 module.exports = function (opt) {
+<<<<<<< HEAD
+=======
+	//console.log(opt);
+>>>>>>> peng
   opt.eleHeadAndFoot = $('#home-swiper');
   opt.objRefreshAjax = {
     url: '/api/livelist.php',
@@ -24,6 +28,7 @@ module.exports = function (opt) {
         myScroll.refresh();
         myScroll.scrollTo(0, self.y + topSize);
         foot.removeClass('down');
+<<<<<<< HEAD
         foot.attr('src', '/footballSNS/images/arrow.png');
     }
   };
@@ -32,6 +37,16 @@ module.exports = function (opt) {
   var myScroll = opt.scroll;
   var topSize = 35;
 
+=======
+        foot.attr('src', '/pinshanghui/images/arrow.png');
+    }
+  };
+
+   //var myScroll = this.widgets.myScroll;
+  var myScroll = opt.scroll;
+  var topSize = 35;
+	//console.log(myScroll);
+>>>>>>> peng
   var ele = opt.eleHeadAndFoot;
   var head = ele.find('.head img'),
       topImgHasClass = head.hasClass('up');
@@ -58,7 +73,11 @@ module.exports = function (opt) {
       myScroll.scrollTo(0, -topSize);
       head.removeClass('up');
     } else if (this.y >= 0) {
+<<<<<<< HEAD
       head.attr('src', '/footballSNS/images/ajax-loader.gif');
+=======
+      head.attr('src', '/pinshanghui/images/ajax-loader.gif');
+>>>>>>> peng
       //TODO ajax下拉刷新数据
 
       $.ajax({
@@ -73,7 +92,11 @@ module.exports = function (opt) {
       setTimeout(function () {
         myScroll.scrollTo(0, -topSize);
         head.removeClass('up');
+<<<<<<< HEAD
         head.attr('src', '/footballSNS/images/arrow.png');
+=======
+        head.attr('src', '/pinshanghui/images/arrow.png');
+>>>>>>> peng
       }, 1000);
     }
 
@@ -83,7 +106,11 @@ module.exports = function (opt) {
       myScroll.scrollTo(0, self.maxScrollY + topSize);
       foot.removeClass('down')
     } else if (maxY >= 0) {
+<<<<<<< HEAD
       foot.attr('src', '/footballSNS/images/ajax-loader.gif');
+=======
+      foot.attr('src', '/pinshanghui/images/ajax-loader.gif');
+>>>>>>> peng
       // ajax上拉加载数据
       $.ajax({
         url: '/api/livelist.php',
@@ -98,7 +125,11 @@ module.exports = function (opt) {
           myScroll.refresh();
           myScroll.scrollTo(0, self.y + topSize);
           foot.removeClass('down');
+<<<<<<< HEAD
           foot.attr('src', '/footballSNS/images/arrow.png');
+=======
+          foot.attr('src', '/pinshanghui/images/arrow.png');
+>>>>>>> peng
         }
       });
     }
