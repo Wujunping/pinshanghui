@@ -1,0 +1,94 @@
+<div class="home" spa-widget="scroll">
+  <div>
+    <header>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/bn1.jpg" alt=""/>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/bn2.jpg" alt=""/>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </header>
+    <section>
+      <ul id="home-nav">
+        <li>
+          <i><img src="images/home_wine_icon.png" alt="" /></i>
+          <b>葡萄酒</b>
+        </li>
+        <li>
+          <i><img src="images/home_beer_icon.png" alt="" /></i>
+          <b>啤酒</b>
+        </li>
+        <li>
+          <i><img src="images/home_seafood_icon.png" alt="" /></i>
+          <b>海鲜</b>
+        </li>
+        <li>
+          <i><img src="images/home_beef_icon.png" alt="" /></i>
+          <b>牛肉</b>
+        </li>
+      </ul>
+      <div class="blank"></div>
+      <div id="nav2">
+        <div class="navinl">
+          <img src="images/nav21.jpg" alt="" />
+        </div>
+        <div class="navinr">
+          <div class="navinn">
+            <img src="images/nav22.jpg" alt="" />
+          </div>
+          <div class="navinn">
+            <img src="images/nav23.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="blank"></div>
+      <div id="sale">
+        <div class="tit">
+          <img src="images/biaoqian_activities.png" alt="" />
+        </div>
+        <div class="salein">
+          <img src="images/640x310.jpg" alt="" />
+        </div>
+        <div class="blank"></div>
+        <div class="salein">
+          <img src="images/310.jpg" alt="" />
+        </div>
+        <div class="blank"></div>
+        <div class="salein">
+          <img src="images/640x31011.jpg" alt="" />
+        </div>
+        <div class="blank"></div>
+        <div class="salein">
+          <img src="images/640x3101.jpg" alt="" />
+        </div>
+        <div class="blank"></div>
+        <div class="salein">
+          <img src="images/640x3102.jpg" alt="" />
+        </div>
+        <div class="blank"></div>
+        <div class="salein">
+          <img src="images/640.jpg" alt="" />
+        </div>
+        <div class="blank"></div>
+        <div class="salein">
+          <img src="images/640_jg.jpg" alt="" />
+        </div>
+        <div class="blank"></div>
+        <div class="salein">
+          <img src="images/310zjz.jpg" alt="" />
+        </div>
+        <div class="blank"></div>
+        <div class="salein">
+          <img src="images/310zx.jpg" alt="" />
+        </div>
+        <div class="blank"></div>
+      </div>
+    </section>
+
+  </div>
+</div>

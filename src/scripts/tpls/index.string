@@ -1,23 +1,25 @@
 <div class="m-index">
-  <header>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-          <div class="swiper-slide">
-              <img src="images/bn1.jpg" alt=""/>
-          </div>
-          <div class="swiper-slide">
-              <img src="images/bn2.jpg" alt=""/>
-          </div>
-      </div>
-      <div class="swiper-pagination"></div>
-      
-    </div>
+  <div id="m-container">
 
-  </header>
-  <section>
-
-  </section>
+  </div>
   <footer>
-
+    <ul id="index-nav">
+      <li class="active" action-type='switch' data-name="home">
+        <i class="yo-ico">&#xe6b8;</i>
+        <b>商城</b>
+      </li>
+      <li action-type='switch' data-name="category">
+        <i class="yo-ico">&#xe6fe;</i>
+        <b>分类</b>
+      </li>
+      <li action-type='switch' data-name="cart">
+        <i class="yo-ico">&#xe6af;</i>
+        <b>购物车</b>
+      </li>
+      <li action-type='switch' data-name="mine">
+        <i class="yo-ico">&#xe78b;</i>
+        <b>我的</b>
+      </li>
+    </ul>
   </footer>
 </div>

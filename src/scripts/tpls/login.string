@@ -1,0 +1,31 @@
+<div class="login">
+  <header>
+    <i></i>
+    <h3>登录</h3>
+  </header>
+  <section>
+    <ul class="account">
+      <li>
+        <i></i>
+        <span>请输入账号</span>
+      </li>
+      <li>
+        <i></i>
+        <span>请输入密码</span>
+      </li>
+    </ul>
+    <a href="#" class="logbtn">登录</a>
+    <ul class="regbtn">
+      <li>
+        <a href="#">立即注册</a>
+      </li>
+      <li>
+        <a href="#">找回密码</a>
+      </li>
+    </ul>
+    <div class="others">
+
+    </div>
+  </section>
+  
+</div>

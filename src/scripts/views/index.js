@@ -1,25 +1,22 @@
 var indexTpl = require('../tpls/index.string');
+var scroll = require('../utils/scroll.js');
 
 //定义视图
 SPA.defineView('index',{
   //装载模板
   html:indexTpl,
-  // modules: [{
-  //   name: 'content',
-  //   container: '#m-container',
-  //   views: ['index', 'category', 'my'],
-  //   defaultTag: 'index'
-  // }],
-  bindEvents: {
-    'show': function(){
-      var mySwiper = new Swiper('.swiper-container', {
-        //direction: 'horizontal',
-        autoplay:2000,
-        loop: true,
-        autoplayDisableOnInteraction : false,
-        pagination: '.swiper-pagination'
-      });
-
+  plugins: ['delegated'],
+  modules: [{
+    name: 'content',
+    container: '#m-container',
+    views: ['home', 'category', 'cart', 'mine','detail','list','login','register'],
+    defaultTag: 'home'
+  }],
+  bindActions: {
+    'switch': function (el, data) {
+      this.modules.content.launch(data.name);
+      $('#index-nav li').eq($(el.el).index()).addClass('active')
+        .siblings().removeClass('active');
     }
   }
 

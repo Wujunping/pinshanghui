@@ -3,26 +3,142 @@
   height: 100%;
   @include flexbox();
   @include flex-direction(column);
-  header{
-    // height: 2.05rem;
-    background: yellow;
-    swiper-container{
-      width: 100%;
-
-    }
-    img{
-      width: 100%;
-    }
-  }
-  section{
+  #m-container {
     @include flex();
     width: 100%;
-    background: tomato;
-
+    position: relative;
+    .home{
+      header{
+        swiper-container{
+          width: 100%;
+        }
+        img{
+          width: 100%;
+        }
+      }
+      section{
+        width: 100%;
+        background: #eff0f4;
+        #home-nav{
+          width: 100%;
+          height: 1rem;
+          @include flexbox();
+          background: #fff;
+          li {
+            @include flex();
+            @include flexbox();
+            @include flex-direction(column);
+            position: relative;
+            b, i {
+              display: block;
+              text-align: center;
+              @include flex();
+              width: 100%;
+            }
+            b {
+              color: #333;
+              font-size: .12px;
+              padding-top: 6px;
+              font-weight: normal;
+            }
+            i {
+              height: .42rem;
+              padding: .15rem 0 .14rem;
+              img{
+                width: .42rem;
+                display: block;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+        .blank{
+          width: 100%;
+          height: .1rem;
+        }
+        #nav2{
+          width: 100%;
+          @include flexbox();
+          .navinl{
+            width: 50%;
+            border-right: 1px solid #cecece;
+            img{
+              width: 100%;
+            }
+          }
+          .navinr{
+            width: 50%;
+            @include flexbox();
+            @include flex-direction(column);
+            .navinn{
+              width: 100%;
+              height: 50%;
+              img{
+                width: 100%;
+              }
+              &:last-child{
+                border-top: 1px solid #cecece;
+              }
+            }
+          }
+        }
+        #sale{
+          width: 100%;
+          background: #fff;
+          .tit{
+            padding-left: .1rem;
+            padding-bottom: .05rem;
+            border-top: 1px solid #fe76a7;
+            img{
+              width: .9rem;
+            }
+          }
+          .salein{
+            width: 100%;
+            img{
+              width: 94%;
+              display: block;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
   }
   footer{
     height: .49rem;
-    background: gray;
-
+    ul{
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      @include border(1px 0 0 0, #b2b2b2);
+      background: #f5f5f5;
+      li {
+        @include flex();
+        @include flexbox();
+        @include flex-direction(column);
+        position: relative;
+        &.active b,
+        &.active i {
+          color: $basecolor;
+        }
+        b, i {
+          display: block;
+          text-align: center;
+          @include flex();
+          width: 100%;
+          color: #7d8287;
+        }
+        b {
+          font-size: .12px;
+          padding-top: 6px;
+          font-weight: normal;
+        }
+        i {
+          font-size: .24rem;
+          height: .25rem;
+        }
+      }
+    }
   }
 }
