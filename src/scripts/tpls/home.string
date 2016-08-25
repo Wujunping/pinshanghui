@@ -1,5 +1,12 @@
 
-<div class="home" spa-widget="scroll">
+<div class="homesearch">
+  <i class="yo-ico">&#xe6d3;</i>
+  <label for="">
+    <span class="yo-ico">&#xe65c;</span>
+    <input type="text" placeholder="请输入关键字">
+  </label>
+</div>
+<div class="home" spa-widget="scroll" data-scroll-id="myScroll">
   <div>
     <header>
       <div class="swiper-container">
@@ -52,42 +59,33 @@
         <div class="tit">
           <img src="images/biaoqian_activities.png" alt="" />
         </div>
-        <div class="salein">
-          <img src="images/640x310.jpg" alt="" />
+        <ul>
+          <li ms-repeat-el="livelist2">
+            <div class="salein">
+              <img ms-src="el.Picture" alt="" />
+            </div>
+            <div class="blank"></div>
+          </li>
+        </ul>
+      </div>
+      <div id="wine">
+        <div class="tit">
+          <img src="images/biaoqian_goods_default.png" alt="" />
         </div>
-        <div class="blank"></div>
-        <div class="salein">
-          <img src="images/310.jpg" alt="" />
-        </div>
-        <div class="blank"></div>
-        <div class="salein">
-          <img src="images/640x31011.jpg" alt="" />
-        </div>
-        <div class="blank"></div>
-        <div class="salein">
-          <img src="images/640x3101.jpg" alt="" />
-        </div>
-        <div class="blank"></div>
-        <div class="salein">
-          <img src="images/640x3102.jpg" alt="" />
-        </div>
-        <div class="blank"></div>
-        <div class="salein">
-          <img src="images/640.jpg" alt="" />
-        </div>
-        <div class="blank"></div>
-        <div class="salein">
-          <img src="images/640_jg.jpg" alt="" />
-        </div>
-        <div class="blank"></div>
-        <div class="salein">
-          <img src="images/310zjz.jpg" alt="" />
-        </div>
-        <div class="blank"></div>
-        <div class="salein">
-          <img src="images/310zx.jpg" alt="" />
-        </div>
-        <div class="blank"></div>
+        <ul>
+          <li class="winein" ms-repeat-el="livelist">
+            <i>
+              <img ms-src="el.goods_img" alt="" />
+            </i>
+            <dl class="">
+              <dt ms-text="el.goods_name"></dt>
+              <dd>
+                <span ms-text="el.Promote_price"></span>
+                <i></i>
+              </dd>
+            </dl>
+          </li>
+        </ul>
       </div>
     </section>
 

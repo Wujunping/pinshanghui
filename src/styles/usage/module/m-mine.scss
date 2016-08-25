@@ -1,7 +1,10 @@
 .mine{
+  width: 100%;
+  height: 100%;
   header{
     width: 100%;
     height: 1.4rem;
+    position: relative;
     background: #d12b36;
     @include border(0 0 1px 0,#c8c7cc);
     @include flexbox();
@@ -16,6 +19,13 @@
       text-align: center;
       background: #d8858b;
       border-radius: 8px;
+    }
+    i{
+      position: absolute;
+      top: .16rem;
+      right: .13rem;
+      color: #fff;
+      font-size: 22px;
     }
   }
   section{
@@ -86,7 +96,7 @@
     }
     .blank{
       width: 100%;
-      height: .05rem;
+      height: .1rem;
 
     }
     .opition{
@@ -171,5 +181,5 @@
       }
     }
   }
-  
+
 }

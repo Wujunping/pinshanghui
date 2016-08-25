@@ -1,0 +1,14 @@
+<div class="cart">
+  <header>
+    <h3>购物车</h3>
+  </header>
+  <section  spa-widget="scroll">
+    <div calss="cartin">
+      <i>
+        <img src="/pinshanghui/images/img_shopping_isnull_.png" alt="">
+      </i>
+      <p>购物车空空如也</p>
+      <a href="javascript:;">看看收藏夹</a>
+    </div>
+  </section>
+</div>

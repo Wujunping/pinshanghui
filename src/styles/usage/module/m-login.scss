@@ -1,23 +1,38 @@
 .login{
+  width: 100%;
+  height: 100%;
+  @include flexbox();
+  @include flex-direction(column);
   header{
     width: 100%;
     height: .44rem;
     background: #fff;
     @include border(0 0 1px 0,#a7a8aa);
+    position: relative;
     h3{
       width: 100%;
       height: .44rem;
       line-height: .44rem;
       text-align: center;
       font-size: 16px;
+      display: inline-block;
     }
     i{
-      background: url(/pinshanghui/imagse/search_back.png) no-repeat center;
-
+      background: url(/pinshanghui/images/search_back.png) no-repeat center;
+      background-size: contain;
+      display: inline-block;
+      width: .25rem;
+      height: 30%;
+      position: absolute;
+      left: 10px;
+      top: 30%;
     }
   }
   section{
     width: 100%;
+    height: 100%;
+    position: relative;
+    // @include flex();
     padding: .15rem .12rem;
     .account{
       width: 100%;
@@ -28,10 +43,15 @@
       li{
         height: .46rem;
         line-height: .46rem;
-        font-size: 12px;
-        color: #d7d7d7;
+        font-size: 14px;
+        text-indent: 20px;
         &:first-child{
           border-bottom: 1px solid #d7d7d7;
+        }
+        input{
+          border: none;
+          width: 90%;
+          height: 90%;
         }
       }
     }
@@ -41,6 +61,7 @@
       background: #d12b36;
       color: #fff;
       text-align: center;
+      font-size: 14px;
       height: .44rem;
       line-height: .44rem;
       margin-top: .13rem;
@@ -58,6 +79,52 @@
         text-decoration: underline;
       }
     }
+    .others{
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: .43rem;
+      color: #a7a7a7;
+      div{
+        width: 100%;
+        height: .4rem;
+        line-height: .4rem;
+        text-align: center;
+        // @include flexbox();
+        p{
+          display: inline-block;
+          // @include flex();
+          width: 26%;
+          height: 1px;
+          background: #a7a7a7;
+        }
+        span{
+          padding: 0 10px;
+        }
+      }
+      ul{
+        width: 100%;
+        @include flexbox();
+        li{
+          i{
+            display: block;
+            width: .47rem;
+            height: .47rem;
+            background: url(/pinshanghui/images/btn_qq.png) no-repeat center;
+            background-size: contain;
+            margin: .1rem auto;
+          }
+          &:nth-child(2) i{
+            background-image: url(/pinshanghui/images/btn_wechat.png);
+          }
+          &:nth-child(3) i{
+            background-image: url(/pinshanghui/images/btn_weibo.png);
+          }
+          @include flex();
+          text-align: center;
+        }
+      }
+    }
   }
-  
+
 }

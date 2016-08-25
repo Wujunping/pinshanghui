@@ -1,0 +1,70 @@
+.register{
+  header{
+    width: 100%;
+    height: .44rem;
+    background: #fff;
+    @include border(0 0 1px 0,#a7a8aa);
+    position: relative;
+    h3{
+      width: 100%;
+      height: .44rem;
+      line-height: .44rem;
+      text-align: center;
+      font-size: 16px;
+    }
+    i{
+      background: url(/pinshanghui/images/search_back.png) no-repeat center;
+      background-size: contain;
+      display: inline-block;
+      width: .25rem;
+      height: 30%;
+      position: absolute;
+      left: 10px;
+      top: 30%;
+
+    }
+  }
+  section{
+    width: 100%;
+
+    .phone{
+      margin: .2rem 0;
+      width: 100%;
+      height: .48rem;
+      line-height: .48rem;
+      background: #fff;
+      border-top: 1px solid #d7d7d7;
+      border-bottom: 1px solid #d7d7d7;
+      span{
+        padding: 0 .17rem;
+      }
+      input{
+        height: .40rem;
+        border: none;
+      }
+    }
+    .next{
+      padding: 0 .21rem;
+      height: .44rem;
+      a{
+        width: 100%;
+        height: 100%;
+        line-height: .44rem;
+        text-align: center;
+        display: block;
+        background: #c41529;
+        color: #fff;
+        border-radius: 9px;
+        text-decoration: underline;
+      }
+    }
+    .pro{
+      padding: .16rem .21rem;
+      font-size: 12px;
+      a{
+        color: #c41529;
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<div class="register">
+  <header>
+    <i action-type="back"></i>
+    <h3>注册</h3>
+  </header>
+  <section>
+    <div class="phone">
+      <span>手机号</span>
+      <input type="text" placeholder="请输入手机号码">
+    </div>
+    <div class="next">
+      <a href="#">下一步</a>
+    </div>
+    <div class="pro">
+      <span>注册即同意</span>
+      <a href="#">品尚汇平台服务协议</a>
+    </div>
+  </section>
+
+</div>

@@ -1,0 +1,50 @@
+.cart{
+  width: 100%;
+  height: 100%;
+  header{
+    width: 100%;
+    height: .44rem;
+    background: #fff;
+    @include border(0 0 1px 0,#a7a8aa);
+    position: relative;
+    h3{
+      width: 100%;
+      height: .44rem;
+      line-height: .44rem;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+  section{
+    width: 100%;
+    height: 100%;
+    padding-top: 1.15rem;
+    i{
+      display: block;
+      margin: 0 auto;
+      width: .8rem;
+      height: 1.1rem;
+      img{
+        width: 100%;
+      }
+    }
+    p{
+      width: 100%;
+      text-align: center;
+      color: #878787;
+      padding-bottom: .3rem;
+    }
+    a{
+      display: block;
+      width: 1.22rem;
+      height: .33rem;
+      background: #d12b36;
+      color: #fff;
+      text-align: center;
+      line-height: .33rem;
+      text-decoration: underline;
+      margin: 0 auto;
+      border-radius: 5px;
+    }
+  }
+}

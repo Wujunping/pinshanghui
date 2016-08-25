@@ -5,8 +5,34 @@ SPA.defineView('home',{
   //装载模板
   html:homeTpl,
 
+  plugins: [{
+    name: 'avalon',
+    options: function (vm) {
+      vm.livelist = [];
+      vm.livelist2=[];
+    }
+  }],
+
   bindEvents: {
     'show': function(){
+      // 获得vm
+      var vm = this.getVM();
+
+      // ajax拉取数据
+      $.ajax({
+        url: '/api/home.php',
+        type: 'get',
+        data: {
+          type: 'more',
+          pageNo: 1
+        },
+        success: function (res) {
+          vm.livelist = res.result.chanpin[0].list;
+          vm.livelist2 = res.result.liebiao;
+          // console.log(res.result.liebiao);
+        }
+      });
+
       var mySwiper = new Swiper('.swiper-container', {
         //direction: 'horizontal',
         autoplay:2000,
@@ -15,10 +41,17 @@ SPA.defineView('home',{
         pagination: '.swiper-pagination'
       });
 
-      // scroll({
-        // scroll: this.widgets.myScroll,
-        // vm: vm
-      // })
+      var myScroll=this.widgets["myScroll"];
+      var that=this;
+      myScroll.on("scroll",function(){
+        if(that.widgets["myScroll"].y < (-176)){
+          $(".homesearch").addClass("seactive");
+          console.log(111);
+        }else{
+          $(".homesearch").removeClass("seactive");
+          console.log(222);
+        }
+      });
     }
   }
 })

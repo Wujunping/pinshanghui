@@ -1,31 +1,47 @@
 <div class="login">
   <header>
-    <i></i>
+    <i action-type="back"></i>
     <h3>登录</h3>
   </header>
   <section>
     <ul class="account">
       <li>
-        <i></i>
-        <span>请输入账号</span>
+        <input type="text" placeholder="请输入账号">
       </li>
       <li>
-        <i></i>
-        <span>请输入密码</span>
+        <input type="text" placeholder="请输入密码">
       </li>
     </ul>
     <a href="#" class="logbtn">登录</a>
     <ul class="regbtn">
       <li>
-        <a href="#">立即注册</a>
+        <a href="javascript:void(0);" action-type="register">立即注册</a>
       </li>
       <li>
         <a href="#">找回密码</a>
       </li>
     </ul>
     <div class="others">
-
+      <div>
+        <p></p>
+        <span>合作伙伴登录</span>
+        <p></p>
+      </div>
+      <ul>
+        <li>
+          <i></i>
+          <span>QQ</span>
+        </li>
+        <li>
+          <i></i>
+          <span>微信</span>
+        </li>
+        <li>
+          <i></i>
+          <span>微博</span>
+        </li>
+      </ul>
     </div>
   </section>
-  
+
 </div>
