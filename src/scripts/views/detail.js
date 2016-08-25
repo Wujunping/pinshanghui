@@ -21,7 +21,7 @@ SPA.defineView('detail',{
    			console.log(11);
    			id=10;
    		}
-   
+
    	$.ajax({
    		type:"get",
    		url:"/api/"+id+".php",
@@ -30,23 +30,16 @@ SPA.defineView('detail',{
 //      },
    		success:function(res){
 					vm.goodslist = res.result.list;
-			
- 	       
+
+
    		}
    	});
    	console.log(this.widgets.myScroll);
     scroll({
     scroll: this.widgets.myScroll,
     vm: vm
-<<<<<<< HEAD
-    })
-
+    });
     }
-  }
-})
-=======
-    }); 
-    } 
   },
    // 绑定tap事件
   bindActions: {
@@ -57,7 +50,7 @@ SPA.defineView('detail',{
 	      param: {
 	        //id: data.id,
 	        index:$(el.el).index()
-	       
+
 	      }
       });
     },
@@ -66,4 +59,3 @@ SPA.defineView('detail',{
     }
     }
 })
->>>>>>> peng
