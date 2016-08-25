@@ -1,0 +1,411 @@
+{
+    "code": "0",
+    "message": "ok",
+    "result": {
+        "attr": [
+            {
+                "key": "葡萄酒类型",
+                "value": "红葡萄酒"
+            },
+            {
+                "key": "酒精度",
+                "value": "13.5%"
+            },
+            {
+                "key": "净含量",
+                "value": "750ml"
+            },
+            {
+                "key": "出产年份",
+                "value": "2013"
+            },
+            {
+                "key": "色泽",
+                "value": "明艳的鲜红色泽"
+            },
+            {
+                "key": "获奖",
+                "value": ""
+            },
+            {
+                "key": "评价",
+                "value": "极富特色的浆果及李子的口味，颇为柔和，令此酒易于饮用，是各种美食的理想搭配。与意粉、烤鸭及口味稍浓的鱼类菜肴搭配十分理想。"
+            },
+            {
+                "key": "国际评分",
+                "value": ""
+            },
+            {
+                "key": "建议醒酒时间",
+                "value": "30分钟"
+            },
+            {
+                "key": "含糖量",
+                "value": "干型"
+            },
+            {
+                "key": "葡萄品种",
+                "value": "梅洛 "
+            },
+            {
+                "key": "水果香",
+                "value": "红色水果"
+            },
+            {
+                "key": "口感分类",
+                "value": "芳香如花果"
+            },
+            {
+                "key": "等级",
+                "value": "澳大利亚优质酒庄"
+            }
+        ],
+        "brand": "",
+        "brandKey": "",
+        "buygoods": [
+            {
+                "Goods_id": "2011",
+                "goods_name": "禾富酒园鹰标赤霞珠红葡萄酒2013",
+                "market_price": "168.00",
+                "Num": "333",
+                "promote_price": "1",
+                "PromPrice": "78.00",
+                "shop_price": "115.00",
+                "Size120_180": "goods_images/2011/2011_120_180_20160106093711.jpg",
+                "size40_60": "goods_images/2011/2011_40_60_20160106093711.jpg"
+            },
+            {
+                "Goods_id": "8943",
+                "goods_name": "奔富洛神山庄系列梅洛红葡萄酒",
+                "market_price": "198.00",
+                "Num": "315",
+                "promote_price": "1",
+                "PromPrice": "59.00",
+                "shop_price": "178.00",
+                "Size120_180": "goods_images/8943/8943_120_180_20140630107983.jpg",
+                "size40_60": "goods_images/8943/8943_40_60_20140218050936.jpg"
+            },
+            {
+                "Goods_id": "11336",
+                "goods_name": "芬富365红葡萄酒",
+                "market_price": "190.00",
+                "Num": "262",
+                "promote_price": "1",
+                "PromPrice": "78.00",
+                "shop_price": "158.00",
+                "Size120_180": "goods_images/11336/11336_120_180_20140630241264.jpg",
+                "size40_60": "goods_images/11336/11336_40_60_20140616035257.jpg"
+            },
+            {
+                "Goods_id": "11337",
+                "goods_name": "芬富优质设拉子赤霞珠红葡萄酒 2012",
+                "market_price": "238.00",
+                "Num": "236",
+                "promote_price": "1",
+                "PromPrice": "79.00",
+                "shop_price": "198.00",
+                "Size120_180": "goods_images/11337/11337_120_180_20140630349243.jpg",
+                "size40_60": "goods_images/11337/11337_40_60_20140618051936.jpg"
+            },
+            {
+                "Goods_id": "2020",
+                "goods_name": "奔富洛神山庄系列赤霞珠红葡萄酒",
+                "market_price": "228.00",
+                "Num": "230",
+                "promote_price": "1",
+                "PromPrice": "59.00",
+                "shop_price": "188.00",
+                "Size120_180": "goods_images/2020/2020_120_180_20160218024009.jpg",
+                "size40_60": "goods_images/2020/2020_40_60_20160218024009.jpg"
+            },
+            {
+                "Goods_id": "1236",
+                "goods_name": "拉菲传说波尔多红葡萄酒",
+                "market_price": "0.00",
+                "Num": "116",
+                "promote_price": "1",
+                "PromPrice": "79.00",
+                "shop_price": "178.00",
+                "Size120_180": "goods_images/1236/1236_120_180_20150113041146.jpg",
+                "size40_60": "goods_images/1236/1236_40_60_20150113041146.jpg"
+            }
+        ],
+        "Caixi": "",
+        "comment": "11",
+        "fav": "34",
+        "gallery": [
+            {
+                "C180_180": "mobiles/mobile_goods_gallery/2010/2010_180_180_20160109044242.jpg",
+                "C256_384": "goods_images/2010/2010_256_384_20160109044242.jpg",
+                "C270_270": "mobiles/mobile_goods_gallery/2010/2010_270_270_20160109044242.jpg",
+                "C384_384": "mobiles/mobile_goods_gallery/2010/2010_384_384_20160109044242.jpg",
+                "C60_90": "goods_images/2010/2010_60_90_20160109044242.jpg",
+                "Img_original": "goods_images/2010/2010_20160109044242.jpg"
+            },
+            {
+                "C180_180": "mobiles/mobile_goods_gallery/2010/2010_180_180_20140910051800.jpg",
+                "C256_384": "goods_images/2010/2010_256_384_20140910051800.jpg",
+                "C270_270": "mobiles/mobile_goods_gallery/2010/2010_270_270_20140910051800.jpg",
+                "C384_384": "mobiles/mobile_goods_gallery/2010/2010_384_384_20140910051800.jpg",
+                "C60_90": "goods_images/2010/2010_60_90_20140910051800.jpg",
+                "Img_original": "goods_images/2010/2010_20140910051800.jpg"
+            },
+            {
+                "C180_180": "mobiles/mobile_goods_gallery/2010/2010_180_180_20140910051812.jpg",
+                "C256_384": "goods_images/2010/2010_256_384_20140910051812.jpg",
+                "C270_270": "mobiles/mobile_goods_gallery/2010/2010_270_270_20140910051812.jpg",
+                "C384_384": "mobiles/mobile_goods_gallery/2010/2010_384_384_20140910051812.jpg",
+                "C60_90": "goods_images/2010/2010_60_90_20140910051812.jpg",
+                "Img_original": "goods_images/2010/2010_20140910051812.jpg"
+            },
+            {
+                "C180_180": "mobiles/mobile_goods_gallery/2010/2010_180_180_20140910051819.jpg",
+                "C256_384": "goods_images/2010/2010_256_384_20140910051819.jpg",
+                "C270_270": "mobiles/mobile_goods_gallery/2010/2010_270_270_20140910051819.jpg",
+                "C384_384": "mobiles/mobile_goods_gallery/2010/2010_384_384_20140910051819.jpg",
+                "C60_90": "goods_images/2010/2010_60_90_20140910051819.jpg",
+                "Img_original": "goods_images/2010/2010_20140910051819.jpg"
+            }
+        ],
+        "goods": {
+            "Add_time": "1310410315",
+            "BarCode": "9300770065720",
+            "BeLevel": "1",
+            "BeUsedBonus": "1",
+            "BeUsedGiftCard": "1",
+            "Bonus_type_id": "0",
+            "Brand_id": "361",
+            "BrightPoints": "",
+            "Cat_id": "159",
+            "Click_count": "6187",
+            "Cost": "38.000000",
+            "EnglishName": "Wolf Blass Eaglehawk Merlot",
+            "Extension_code": "",
+            "Give_integral": "-1",
+            "Goods_brief": "品尚红酒网原瓶进口澳大利亚禾富酒园鹰标梅洛干红葡萄酒, 禾富酒园鹰标梅洛干红产自南澳产区，由100%梅洛酿造，极\r\r\n富特色的浆果及李子的口味，颇为柔和，令此酒易于饮用，是各种美食的理想搭配。与意粉、烤鸭及口味稍浓的鱼类菜肴搭配十分理想。",
+            "Goods_id": "2010",
+            "Goods_img": "goods_images/2010/2010_url_20160109044242.jpg",
+            "Goods_list_img": "goods_images/2010/2010_list_20160109044242.jpg",
+            "Goods_name": "禾富酒园鹰标梅洛红葡萄酒 2013",
+            "Goods_name_style": "+",
+            "Goods_number": "16",
+            "Goods_sn": "2050010048",
+            "Goods_thumb": "goods_images/2010/2010_thumb_20160109044242.jpg",
+            "Goods_type": "72",
+            "Goods_weight": "1.270",
+            "Integral": "0",
+            "Is_alone_sale": "1",
+            "Is_best": "0",
+            "Is_book": "0",
+            "Is_delete": "0",
+            "Is_group_goods": "0",
+            "Is_hot": "0",
+            "Is_my_brand": "",
+            "Is_new": "1",
+            "Is_new_wine": "0",
+            "Is_no_price": "0",
+            "Is_no_qiantai": "0",
+            "Is_no_stock": "0",
+            "Is_on_sale": "1",
+            "Is_Pre": "0",
+            "Is_promote": "1",
+            "Is_real": "1",
+            "Is_repeat": "0",
+            "IsAward": "0",
+            "IsSupply": "0",
+            "Keywords": "葡萄酒,澳洲红酒,禾富鹰标红酒,进口红酒,进口葡萄酒",
+            "Last_update": "1464423046",
+            "Market_price": "168.00",
+            "Noshow_protime": "0",
+            "OnlyChannel": "1",
+            "Original_img": "goods_images/2010/2010_20160109044242.jpg",
+            "PoGroupId": "19",
+            "PoUnit": "",
+            "PoUnitName": "",
+            "PreEndTime": "-144000",
+            "Prepaid": "0.00",
+            "PreStartTime": "-144000",
+            "Promote_end_date": "1451577600",
+            "Promote_price": "78.00",
+            "Promote_start_date": "1366905600",
+            "Provider_name": "",
+            "Qianggouq_sellered": "0",
+            "Rank_integral": "-1",
+            "Seller_note": "",
+            "Sellered": "6158",
+            "SellingPoint": "澳洲名庄，品质卓越",
+            "Shop_price": "115.00",
+            "Size120_180": "goods_images/2010/2010_120_180_20160109044242.jpg",
+            "Size150_255": "goods_images/2010/2010_150_255_20160109044242.jpg",
+            "Size180_180": "mobiles/mobile_goods_gallery/2010/2010_180_180_20160109044242.jpg",
+            "Size180_270": "goods_images/2010/2010_180_270_20160109044242.jpg",
+            "Size256_384": "goods_images/2010/2010_256_384_20160109044242.jpg",
+            "Size270_270": "mobiles/mobile_goods_gallery/2010/2010_270_270_20160109044242.jpg",
+            "Size384_384": "mobiles/mobile_goods_gallery/2010/2010_384_384_20160109044242.jpg",
+            "Size40_60": "goods_images/2010/2010_40_60_20160109044242.jpg",
+            "Size60_90": "goods_images/2010/2010_60_90_20160109044242.jpg",
+            "Size90_135": "goods_images/2010/2010_90_135_20160109044242.jpg",
+            "Small_name": "禾富酒园鹰标梅洛干红",
+            "Sort_order": "0",
+            "Status": "1",
+            "Unit": "",
+            "VendorId": "18",
+            "Warn_number": "1",
+            "Zz77_order": "0",
+            "SupplyMode": "",
+            "Is_HaiTao": "0"
+        },
+        "grade": {
+            "1": {
+                "Grade": "1",
+                "Total": "0"
+            },
+            "2": {
+                "Grade": "2",
+                "Total": "0"
+            },
+            "3": {
+                "Grade": "3",
+                "Total": "2"
+            },
+            "4": {
+                "Grade": "4",
+                "Total": "1"
+            },
+            "5": {
+                "Grade": "5",
+                "Total": "8"
+            }
+        },
+        "grade5": "11",
+        "gradecount": "11",
+        "gradescore": "90",
+        "NormalCommentList": [
+            {
+                "Comment_id": "126648",
+                "User_id": "520829",
+                "Name": "519868bb0854a",
+                "Company": "",
+                "Url": "",
+                "Content": "流通酒。价格很便宜。口感很好。单宁弱了点。",
+                "Sku": "2010",
+                "Add_time": "1462367368",
+                "Position": "14185",
+                "Type": ""
+            },
+            {
+                "Comment_id": "124444",
+                "User_id": "1876918",
+                "Name": "云卷云舒花自落",
+                "Company": "",
+                "Url": "",
+                "Content": "大牌酒，口感也不错，平时饮用是很好的选择",
+                "Sku": "2010",
+                "Add_time": "1446196590",
+                "Position": "0",
+                "Type": ""
+            },
+            {
+                "Comment_id": "117146",
+                "User_id": "732985",
+                "Name": "言西早",
+                "Company": "",
+                "Url": "",
+                "Content": "酒体中等，入口柔顺，果香浓郁，值得购买。",
+                "Sku": "2010",
+                "Add_time": "1431165905",
+                "Position": "15134",
+                "Type": ""
+            },
+            {
+                "Comment_id": "117090",
+                "User_id": "741423",
+                "Name": "天空飘来五个字",
+                "Company": "",
+                "Url": "",
+                "Content": "极富特色的浆果及李子的口味，颇为柔和，令此酒易于饮用，是各种美食的理想搭配。与意粉、烤鸭及口味稍浓的鱼类菜肴搭配十分理想。",
+                "Sku": "2010",
+                "Add_time": "1431077701",
+                "Position": "0",
+                "Type": ""
+            },
+            {
+                "Comment_id": "105406",
+                "User_id": "506732",
+                "Name": "樱桃花的春天",
+                "Company": "",
+                "Url": "",
+                "Content": "是品尚的老顾客了，这次的酒很不错，刚开的时候闻起来很浓烈，醒一会儿再入口就很柔和了。非常喜欢！",
+                "Sku": "2010",
+                "Add_time": "1414661288",
+                "Position": "0",
+                "Type": ""
+            },
+            {
+                "Comment_id": "105398",
+                "User_id": "307745",
+                "Name": "13554910382",
+                "Company": "",
+                "Url": "",
+                "Content": "非常靓丽的深宝石红。浓郁的黑色水果味，夹着一点点甘草、的味道，单宁高、酸度高，有一定的复杂度，性价比很高的酒！",
+                "Sku": "2010",
+                "Add_time": "1414658420",
+                "Position": "242",
+                "Type": ""
+            },
+            {
+                "Comment_id": "45504",
+                "User_id": "205934",
+                "Name": "刀刀",
+                "Company": "",
+                "Url": "",
+                "Content": "宝贝一收到就试喝了，很棒，非常浓郁的香味，就是一次没有喝完，不知道怎么保存才能留住这股果香，宝贝包装的很严实物流也很快",
+                "Sku": "2010",
+                "Add_time": "1344502742",
+                "Position": "99620",
+                "Type": ""
+            },
+            {
+                "Comment_id": "12487",
+                "User_id": "198685",
+                "Name": "风龄",
+                "Company": "",
+                "Url": "",
+                "Content": "之前喝过这酒觉得口感很好，很喜欢，如果有更优惠的价格就好了。我一定会多购的。",
+                "Sku": "2010",
+                "Add_time": "1316495841",
+                "Position": "3319",
+                "Type": ""
+            }
+        ],
+        "Origin": "澳大利亚",
+        "OriginArea": "南澳South Australia",
+        "OriginAreaid": "",
+        "Originid": "157",
+        "price": {
+            "Sku": "2010",
+            "VipPrice": "115.00",
+            "PromCode": "",
+            "Price": "78.00",
+            "PromId": "",
+            "Qty": "36",
+            "Utime": "2016-08-22 22:36:00"
+        },
+        "StarCommentList": "",
+        "tips": [
+            {
+                "PromCode": "1e581af35a474125",
+                "PromPrice": "78.00",
+                "TotalQty": "",
+                "BeginTime": "2015-01-01 14:23:59",
+                "EndTime": "2016-12-30 14:23:59"
+            }
+        ],
+        "moreInfo": [],
+        "PromPrice": "78.00",
+        "StockTotal": "36",
+        "PHP": {
+            "isCollected": 0
+        }
+    }
+}

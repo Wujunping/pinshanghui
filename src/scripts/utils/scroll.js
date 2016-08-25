@@ -1,26 +1,21 @@
 // pullToRefresh
+ var pg=1;
 module.exports = function (opt) {
-	//console.log(opt);
+	
   opt.eleHeadAndFoot = $('#home-swiper');
   opt.objRefreshAjax = {
-    url: '/api/livelist.php',
+    url: '/api/47.php',
     type: 'get',
-    data: {
-      type: 'refresh'
-    },
     success: function (res) {
-      opt.vm.livelist = res.data.concat(opt.vm.livelist);
+    	console.log(res.result.list);
+      opt.vm.goodslist = res.result.list.concat(opt.vm.goodslist);
     }
   };
   opt.objMoreAjax = {
-    url: '/api/livelist.php',
+    url: '/api/47.php',
     type: 'get',
-    data: {
-      type: 'more',
-      pageNo: 2
-    },
     success: function (res) {
-        opt.vm.livelist.pushArray(res.data);
+        opt.vm.goodslist.pushArray(res.result.list);
 
         myScroll.refresh();
         myScroll.scrollTo(0, self.y + topSize);
@@ -85,23 +80,33 @@ module.exports = function (opt) {
       foot.removeClass('down')
     } else if (maxY >= 0) {
       foot.attr('src', '/pinshanghui/images/ajax-loader.gif');
+     
       // ajax上拉加载数据
-      $.ajax({
-        url: '/api/livelist.php',
+      
+      	 $.ajax({
+        url: '/api/2.php',
         type: 'get',
-        data: {
-          type: 'more',
-          pageNo: 2
-        },
-        success: function (res) {
-          opt.vm.livelist.pushArray(res.data);
-
+    	success: function (res) {
+         
+          
+          if(pg==1){
+          	 opt.vm.goodslist.pushArray(res.result.list);
+          	pg=0;
+          	
+          }
+      	 	
+			
           myScroll.refresh();
           myScroll.scrollTo(0, self.y + topSize);
           foot.removeClass('down');
           foot.attr('src', '/pinshanghui/images/arrow.png');
+         
         }
-      });
+        
+        
+      	});
+      
+     
     }
   });
 };

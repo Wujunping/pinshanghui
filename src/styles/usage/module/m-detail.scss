@@ -10,7 +10,18 @@
     padding: 6px 10px;
     @include border(0 0 1px 0,#a6a6a6);
     @include flexbox();
+   
     position: relative;
+    i{
+       @include flexbox();
+       @include align-items(center);
+       margin-right: 14px; 
+        img{
+            width: .11rem;
+            height: .18rem;
+           
+        }
+    }
     form{
         width: 100%;
         background: #eff0f4;
@@ -45,10 +56,16 @@
         height: 100%;
         @include flexbox();
         @include justify-content(space-around);
+        @include border(0 0 1px 0,#a6a6a6);
         li{
             height: 100%;
             text-align: center;
             line-height: .44rem;
+            
+        }
+        li.active3{
+            @include border(0 0 0px 0,#a6a6a6);
+            border-bottom: 3px solid red;
         }
     }
   }
@@ -58,21 +75,21 @@
       width: 100%;
       ul{
           width: 100%;
+          padding: 0 4px;
           li{
               width: 100%;
               height: 1.3rem;
               @include flexbox();
+              @include border(0 0 1px 0,#a6a6a6);
               i{
                   width: 31%;
                   height: 100%;
-                  display: block;
                   @include flexbox(); 
+                  @include justify-content(center);
+                  @include align-items(center);
                   img{
-                      display: block;
-                      width: 100%;
-                      margin: auto 0;
-                      @include align-content(center);
-                      
+                    width: 80%;
+                    height: 80%;
                   }
               }
               div{
