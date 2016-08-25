@@ -10,3 +10,5 @@ require('./views/register.js');
 require('./views/login.js');
 require('./views/detail.js');
 require('./views/cart.js');
+require('./views/detail.js');
+require('./views/details.js');

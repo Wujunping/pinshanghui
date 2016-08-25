@@ -1,0 +1,334 @@
+{
+    "code": "0",
+    "message": "ok",
+    "result": {
+        "attr": [
+            {
+                "key": "评价",
+                "value": "圣母之乳是德国弗里茨-温迪诗酒庄出品的一款经典白葡萄酒，具有甘冽甜美的新鲜果香，入口清爽宜人，是非常适合各种场合饮用的德国葡萄酒。"
+            },
+            {
+                "key": "获奖",
+                "value": ""
+            },
+            {
+                "key": "出产年份",
+                "value": "2011"
+            },
+            {
+                "key": "色泽",
+                "value": "柠檬黄"
+            },
+            {
+                "key": "葡萄品种",
+                "value": "科万尼"
+            },
+            {
+                "key": "等级",
+                "value": "QBA"
+            },
+            {
+                "key": "净含量",
+                "value": "500ML*8"
+            },
+            {
+                "key": "酒精度",
+                "value": "10.5%vol"
+            },
+            {
+                "key": "国际评分",
+                "value": ""
+            },
+            {
+                "key": "建议醒酒时间",
+                "value": "即开即饮"
+            },
+            {
+                "key": "含糖量",
+                "value": "甜型"
+            },
+            {
+                "key": "橡木及其他",
+                "value": "发酵物"
+            },
+            {
+                "key": "水果香",
+                "value": "绿色水果"
+            },
+            {
+                "key": "口感分类",
+                "value": "酸甜如初恋"
+            },
+            {
+                "key": "产地",
+                "value": "德国"
+            },
+            {
+                "key": "品牌",
+                "value": "沃多福"
+            },
+            {
+                "key": "类型",
+                "value": "小麦啤"
+            },
+            {
+                "key": "包装",
+                "value": "听装"
+            },
+            {
+                "key": "储存方法",
+                "value": "常温避光"
+            },
+            {
+                "key": "保质期",
+                "value": "按实际收货信息为准"
+            },
+            {
+                "key": "到期日",
+                "value": "2016/7/4"
+            }
+        ],
+        "brand": "沃多福",
+        "brandKey": "",
+        "buygoods": [
+            {
+                "Goods_id": "14212",
+                "goods_name": "格尔顿红葡萄酒GERNTON",
+                "market_price": "0.00",
+                "Num": "17136",
+                "promote_price": "0",
+                "PromPrice": "65.00",
+                "shop_price": "288.00",
+                "Size120_180": "goods_images/14212/14212_120_180_20160303111529.jpg",
+                "size40_60": "goods_images/14212/14212_40_60_20160303111529.jpg"
+            },
+            {
+                "Goods_id": "1236",
+                "goods_name": "拉菲传说波尔多红葡萄酒",
+                "market_price": "0.00",
+                "Num": "7107",
+                "promote_price": "1",
+                "PromPrice": "79.00",
+                "shop_price": "178.00",
+                "Size120_180": "goods_images/1236/1236_120_180_20150113041146.jpg",
+                "size40_60": "goods_images/1236/1236_40_60_20150113041146.jpg"
+            },
+            {
+                "Goods_id": "15524",
+                "goods_name": "欧式风情醒酒器",
+                "market_price": "68.00",
+                "Num": "3508",
+                "promote_price": "0",
+                "PromPrice": "58.00",
+                "shop_price": "58.00",
+                "Size120_180": "goods_images/15524/15524_120_180_20150618041719.jpg",
+                "size40_60": "goods_images/15524/15524_40_60_20150618041719.jpg"
+            },
+            {
+                "Goods_id": "9612",
+                "goods_name": "法国拉菲传奇波尔多干红 2014",
+                "market_price": "0.00",
+                "Num": "3342",
+                "promote_price": "1",
+                "PromPrice": "69.00",
+                "shop_price": "178.00",
+                "Size120_180": "goods_images/9612/9612_120_180_20150515073452.jpg",
+                "size40_60": "goods_images/9612/9612_40_60_20150515073452.jpg"
+            },
+            {
+                "Goods_id": "14072",
+                "goods_name": "法拉红葡萄酒",
+                "market_price": "0.00",
+                "Num": "2510",
+                "promote_price": "0",
+                "PromPrice": "78.00",
+                "shop_price": "128.00",
+                "Size120_180": "goods_images/14072/14072_120_180_20150316104652.jpg",
+                "size40_60": "goods_images/14072/14072_40_60_20150316104652.jpg"
+            },
+            {
+                "Goods_id": "14504",
+                "goods_name": "阿里那男爵半干红葡萄酒",
+                "market_price": "298.00",
+                "Num": "2448",
+                "promote_price": "0",
+                "PromPrice": "258.00",
+                "shop_price": "258.00",
+                "Size120_180": "goods_images/14504/14504_120_180_20150528015605.jpg",
+                "size40_60": "goods_images/14504/14504_40_60_20150528015605.jpg"
+            }
+        ],
+        "Caixi": "",
+        "comment": "5",
+        "fav": "6",
+        "gallery": [
+            {
+                "C180_180": "mobiles/mobile_goods_gallery/16687/16687_180_180_20160310125640.jpg",
+                "C256_384": "goods_images/16687/16687_256_384_20160310125640.jpg",
+                "C270_270": "mobiles/mobile_goods_gallery/16687/16687_270_270_20160310125640.jpg",
+                "C384_384": "mobiles/mobile_goods_gallery/16687/16687_384_384_20160310125640.jpg",
+                "C60_90": "goods_images/16687/16687_60_90_20160310125640.jpg",
+                "Img_original": "goods_images/16687/16687_20160310125640.jpg"
+            },
+            {
+                "C180_180": "mobiles/mobile_goods_gallery/16687/16687_180_180_20160310125652.jpg",
+                "C256_384": "goods_images/16687/16687_256_384_20160310125652.jpg",
+                "C270_270": "mobiles/mobile_goods_gallery/16687/16687_270_270_20160310125652.jpg",
+                "C384_384": "mobiles/mobile_goods_gallery/16687/16687_384_384_20160310125652.jpg",
+                "C60_90": "goods_images/16687/16687_60_90_20160310125652.jpg",
+                "Img_original": "goods_images/16687/16687_20160310125652.jpg"
+            },
+            {
+                "C180_180": "mobiles/mobile_goods_gallery/16687/16687_180_180_20160310125703.jpg",
+                "C256_384": "goods_images/16687/16687_256_384_20160310125703.jpg",
+                "C270_270": "mobiles/mobile_goods_gallery/16687/16687_270_270_20160310125703.jpg",
+                "C384_384": "mobiles/mobile_goods_gallery/16687/16687_384_384_20160310125703.jpg",
+                "C60_90": "goods_images/16687/16687_60_90_20160310125703.jpg",
+                "Img_original": "goods_images/16687/16687_20160310125703.jpg"
+            }
+        ],
+        "goods": {
+            "Add_time": "1269296776",
+            "BarCode": "4015576055428",
+            "BeLevel": "0",
+            "BeUsedBonus": "1",
+            "BeUsedGiftCard": "1",
+            "Bonus_type_id": "0",
+            "Brand_id": "1199",
+            "BrightPoints": "",
+            "Cat_id": "10016",
+            "Click_count": "83570",
+            "Cost": "3.150000",
+            "EnglishName": "",
+            "Extension_code": "",
+            "Give_integral": "-1",
+            "Goods_brief": "",
+            "Goods_id": "16687",
+            "Goods_img": "goods_images/16687/16687_url_20160310125640.jpg",
+            "Goods_list_img": "goods_images/16687/16687_list_20160310125640.jpg",
+            "Goods_name": "沃多福小麦啤酒500ml听装8听装",
+            "Goods_name_style": "8",
+            "Goods_number": "35472",
+            "Goods_sn": "GPWI011304",
+            "Goods_thumb": "goods_images/16687/16687_thumb_20160310125640.jpg",
+            "Goods_type": "203",
+            "Goods_weight": "4.000",
+            "Integral": "0",
+            "Is_alone_sale": "1",
+            "Is_best": "0",
+            "Is_book": "0",
+            "Is_delete": "0",
+            "Is_group_goods": "1",
+            "Is_hot": "0",
+            "Is_my_brand": "",
+            "Is_new": "0",
+            "Is_new_wine": "0",
+            "Is_no_price": "0",
+            "Is_no_qiantai": "0",
+            "Is_no_stock": "0",
+            "Is_on_sale": "1",
+            "Is_Pre": "0",
+            "Is_promote": "0",
+            "Is_real": "1",
+            "Is_repeat": "0",
+            "IsAward": "0",
+            "IsSupply": "0",
+            "Keywords": "WDFXMPJ500mlTZ",
+            "Last_update": "1467167966",
+            "Market_price": "0.00",
+            "Noshow_protime": "1",
+            "OnlyChannel": "1",
+            "Original_img": "goods_images/16687/16687_20160310125640.jpg",
+            "PoGroupId": "19",
+            "PoUnit": "",
+            "PoUnitName": "",
+            "PreEndTime": "0",
+            "Prepaid": "10.00",
+            "PreStartTime": "0",
+            "Promote_end_date": "0",
+            "Promote_price": "49.00",
+            "Promote_start_date": "0",
+            "Provider_name": "",
+            "Qianggouq_sellered": "0",
+            "Rank_integral": "-1",
+            "Seller_note": "",
+            "Sellered": "23640",
+            "SellingPoint": "夏日必选",
+            "Shop_price": "108.00",
+            "Size120_180": "goods_images/16687/16687_120_180_20160310125640.jpg",
+            "Size150_255": "goods_images/16687/16687_150_255_20160310125640.jpg",
+            "Size180_180": "mobiles/mobile_goods_gallery/16687/16687_180_180_20160310125640.jpg",
+            "Size180_270": "goods_images/16687/16687_180_270_20160310125640.jpg",
+            "Size256_384": "goods_images/16687/16687_256_384_20160310125640.jpg",
+            "Size270_270": "mobiles/mobile_goods_gallery/16687/16687_270_270_20160310125640.jpg",
+            "Size384_384": "mobiles/mobile_goods_gallery/16687/16687_384_384_20160310125640.jpg",
+            "Size40_60": "goods_images/16687/16687_40_60_20160310125640.jpg",
+            "Size60_90": "goods_images/16687/16687_60_90_20160310125640.jpg",
+            "Size90_135": "goods_images/16687/16687_90_135_20160310125640.jpg",
+            "Small_name": "",
+            "Sort_order": "0",
+            "Status": "1",
+            "Unit": "",
+            "VendorId": "548",
+            "Warn_number": "1",
+            "Zz77_order": "0",
+            "SupplyMode": "",
+            "Is_HaiTao": "0"
+        },
+        "grade": {
+            "1": {
+                "Grade": "1",
+                "Total": "0"
+            },
+            "2": {
+                "Grade": "2",
+                "Total": "0"
+            },
+            "3": {
+                "Grade": "3",
+                "Total": "0"
+            },
+            "4": {
+                "Grade": "4",
+                "Total": "0"
+            },
+            "5": {
+                "Grade": "5",
+                "Total": "5"
+            }
+        },
+        "grade5": "5",
+        "gradecount": "5",
+        "gradescore": "100",
+        "NormalCommentList": "",
+        "Origin": "啤酒",
+        "OriginArea": "德国",
+        "OriginAreaid": "",
+        "Originid": "75",
+        "price": {
+            "Sku": "16687",
+            "VipPrice": "108.00",
+            "PromCode": "",
+            "Price": "39.00",
+            "PromId": "",
+            "Qty": "3852",
+            "Utime": "2016-08-22 22:36:00"
+        },
+        "StarCommentList": "",
+        "tips": [
+            {
+                "PromCode": "ac22e309f58a4d61",
+                "PromPrice": "39.00",
+                "TotalQty": "",
+                "BeginTime": "2016-08-18 16:12:24",
+                "EndTime": "2016-08-31 10:12:24"
+            }
+        ],
+        "moreInfo": [],
+        "PromPrice": "39.00",
+        "StockTotal": "3852",
+        "PHP": {
+            "isCollected": 0
+        }
+    }
+}

@@ -52,12 +52,22 @@ SPA.defineView('category', {
     // 绑定tap事件
   bindActions: {
     'switch': function (el) {
-    	console.log($(el.el));
-      console.log($(el.el).index());
+    	//console.log($(el.el));
+      //console.log($(el.el).index());
       $(el.el).addClass("active").siblings().removeClass('active');
       $('#index2-nav ul').eq($(el.el).index()).addClass('active1').siblings().removeClass('active1');
       //$('#index1-nav li').eq($(el.el).index()).addClass('active')
        // .siblings().removeClass('active');
+    },
+       // 绑定tap
+    'goto.detail': function (el, data) {
+    	//console.log(el);
+      SPA.open('detail', {
+	      param: {
+	        id: data.id
+	      }
+      });
     }
   }
+
 });

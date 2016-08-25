@@ -1,5 +1,6 @@
 <div class="p1-index">
   <header>
+  <i action-type="back"><img src="/pinshanghui/images/search_back.png" alt="" /></i>	
 	<form class="yo-search">
 	<span class="yo-ico">&#xf067;</span>
 	<input type="text" class="input" placeholder="输入搜索关键字..." />
@@ -7,7 +8,7 @@
   </header>
   <nav>
   	<ul>
-  		<li>人气</li>
+  		<li class="active3">人气</li>
   		<li>销量</li>
   		<li>价格</li>
   	</ul>
@@ -19,6 +20,33 @@
 	        <span>下拉刷新...</span>
 	    </div>
 	  	<ul>
+	  		<li ms-repeat-el="goodslist" action-type="goto.details" ms-attr-data-id="el.Goods_id">
+	  			<i><img ms-src="el.Size150_255" alt="" /></i>
+	  			<div>
+		  			<b ms-text="el.Goods_name"></b>
+		  			<span ms-text="el.SellingPoint"></span>
+		  			<strong ms-text="el.Price"></strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li>
+	 			<!--<li>
+	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
+	  			<div>
+		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
+		  			<span>精巧小猫 美丽味道</span>
+		  			<strong>¥188.00</strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li>
+	  		 		<li>
+	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
+	  			<div>
+		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
+		  			<span>精巧小猫 美丽味道</span>
+		  			<strong>¥188.00</strong>
+		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
+	  			</div>
+	  		</li>
 	  		<li>
 	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
 	  			<div>
@@ -28,7 +56,7 @@
 		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
 	  			</div>
 	  		</li>
-	 		<li>
+	 			<li>
 	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
 	  			<div>
 		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
@@ -37,7 +65,7 @@
 		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
 	  			</div>
 	  		</li>
-	  		 		<li>
+	 			<li>
 	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
 	  			<div>
 		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
@@ -46,7 +74,7 @@
 		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
 	  			</div>
 	  		</li>
-	  		 		<li>
+	  		<li>
 	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
 	  			<div>
 		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
@@ -55,34 +83,7 @@
 		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
 	  			</div>
 	  		</li>
-	 		<li>
-	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
-	  			<div>
-		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
-		  			<span>精巧小猫 美丽味道</span>
-		  			<strong>¥188.00</strong>
-		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
-	  			</div>
-	  		</li>
-	 		<li>
-	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
-	  			<div>
-		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
-		  			<span>精巧小猫 美丽味道</span>
-		  			<strong>¥188.00</strong>
-		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
-	  			</div>
-	  		</li>
-	  		 		<li>
-	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
-	  			<div>
-		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定</b>
-		  			<span>精巧小猫 美丽味道</span>
-		  			<strong>¥188.00</strong>
-		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
-	  			</div>
-	  		</li>
-	  		 		<li>
+	  		<li>
 	  			<i><img src="/pinshanghui/images/loading.9.png" alt="" /></i>
 	  			<div>
 		  			<b>一段话一段话一段话 一端话阿达按打款时间段家肯定最后一个</b>
@@ -90,7 +91,7 @@
 		  			<strong>¥188.00</strong>
 		  			<em><img src="/pinshanghui/images/icon_shopcar_empty_index.png" alt="" /></em>
 	  			</div>
-	  		</li> 		
+	  		</li> 		-->
 	  	</ul>
 	  	<div class="foot">
 	        <img src="/pinshanghui/images/arrow.png"/>

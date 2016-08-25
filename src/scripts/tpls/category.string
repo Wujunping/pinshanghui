@@ -18,31 +18,31 @@
   	<aside id="index2-nav" spa-widget="scroll">
   		<div class="scroll_container">
 	  		<ul class="active1">
-	  			<li ms-repeat-el="livelist">
+	  			<li ms-repeat-el="livelist" action-type="goto.detail" ms-attr-data-id="el.id">
 	          <i><img ms-src="el.img" alt=""></i>
 	          <b ms-text="el.cat_name"></b>
 	       	</li>
 	  		</ul>
 	  		<ul>
-	  			<li ms-repeat-el="livelist1">
+	  			<li ms-repeat-el="livelist1" action-type="goto.detail" ms-attr-data-id="el.id">
 	          <i><img ms-src="el.img" alt=""></i>
 	          <b ms-text="el.cat_name"></b>
 	       	</li>
 	  		</ul>
 	  		<ul>
-	  			<li ms-repeat-el="livelist2">
+	  			<li ms-repeat-el="livelist2" action-type="goto.detail" ms-attr-data-id="el.id">
 	          <i><img ms-src="el.img" alt=""></i>
 	          <b ms-text="el.cat_name"></b>
 	        </li>
 	  		</ul>
 	  		<ul>
-	  			<li ms-repeat-el="livelist3">
+	  			<li ms-repeat-el="livelist3" action-type="goto.detail" ms-attr-data-id="el.id">
 	          <i><img ms-src="el.img" alt=""></i>
 	          <b ms-text="el.cat_name"></b>
 	       	</li>
 	  		</ul>
 	  		<ul>
-	  			<li ms-repeat-el="livelist4">
+	  			<li ms-repeat-el="livelist4" action-type="goto.detail" ms-attr-data-id="el.id">
 	          <i><img ms-src="el.img" alt=""></i>
 	          <b ms-text="el.cat_name"></b>
 	       	</li>

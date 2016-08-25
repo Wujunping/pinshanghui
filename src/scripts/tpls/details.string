@@ -1,0 +1,68 @@
+<div class="p2-index">
+	<header>
+		<i action-type="back"><img src="/pinshanghui/images/search_back.png" alt="" /></i>
+		<strong>商品详情</strong>
+		<span><img src="/pinshanghui/images/commodity_love_default.png" alt="" /></span>
+		<b><img src="/pinshanghui/images/nav_share.png" alt="" /></b>
+	</header>
+	<nav>
+		<ul ms-visible="false">
+			<li>图文详情</li>
+			<li>商品参数</li>
+			<li>用户口碑</li>
+		</ul>
+	</nav>
+	<section spa-widget="scroll" ms-visible="xianshi" data-scroll-id="dts-scroll">
+		<div>
+			<i><img ms-src="detailslist.Size256_384"/></i>
+			<span>¥<span ms-text="detailslist.Price"></span></span>
+			<p ms-text="detailslist.Goods_name"></p>
+			<p ms-text="detailslist.SellingPoint"></p>
+			<b><span>优惠</span>本商品可用优惠券</b>
+			<b>品尚汇&品尚红酒-中国领先高性价比进口电商</b>
+			<strong>评鉴:<em ms-text="detailslist.Goods_brief"></em></strong>
+			<b>品尚汇&品尚红酒保证</b>
+			<ul>
+				<li><img src="/pinshanghui/images/icon_67.png" alt="" /></li>
+				<li><img src="/pinshanghui/images/icon_71.png" alt="" /></li>
+				<li><img src="/pinshanghui/images/icon_75.png" alt="" /></li>
+				<li><img src="/pinshanghui/images/icon_77.png" alt="" /></li>
+			</ul>
+			<ul>
+				<li>正品保证</li>
+				<li>30天退换</li>
+				<li>满150包邮</li>
+				<li>慢就赔</li>
+			</ul>
+			<!--<aside>
+				<ul>
+					<li>图文详情</li>
+					<li>商品参数</li>
+					<li>用户口碑</li>
+				</ul>
+				<div class="swiper-container" id="home-swiper">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide">Slide 1</div>
+				        <div class="swiper-slide">Slide 2</div>
+				        <div class="swiper-slide">Slide 3</div>
+				    </div>
+				</div>
+			</aside>-->
+		</div>
+		
+	</section>
+	<aside spa-widget="scroll" data-scroll-id="dtss-scroll" ms-visible="yinc">
+		<div class="swiper-container" id="home-swiper">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">Slide 1</div>
+		        <div class="swiper-slide">Slide 2</div>
+		        <div class="swiper-slide">Slide 3</div>
+		    </div>
+		</div>
+	</aside>
+	<footer>
+		<span>加入购物车</span>
+		<i>客服</i>
+		<b>购物车</b>
+	</footer>
+</div>
