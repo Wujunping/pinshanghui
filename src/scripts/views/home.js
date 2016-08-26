@@ -10,8 +10,9 @@ SPA.defineView('home',{
     options: function (vm) {
       vm.livelist = [];
       vm.livelist2=[];
-    }
-  }],
+    },
+  },'delegated'],
+
 
   bindEvents: {
     'show': function(){
@@ -53,5 +54,15 @@ SPA.defineView('home',{
         }
       });
     }
+  },
+
+  bindActions:{
+    'detail': function () {
+      SPA.open('detail', {});
+    },
+    'details': function () {
+      SPA.open('details', {});
+    }
   }
+
 })

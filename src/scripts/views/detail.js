@@ -1,4 +1,5 @@
 var detailTpl = require('../tpls/detail.string');
+var scroll = require('../utils/scroll.js');
 
 //定义视图
 SPA.defineView('detail',{

@@ -39,8 +39,11 @@ module.exports = {
     },
     {
      pattern: /\/api\/1-2\.php/,
-
       respondwith: './1-2.json'
+    },
+    {
+     pattern: /\/api\/2\.php/,
+      respondwith: './2.json'
     }
   ]
 };

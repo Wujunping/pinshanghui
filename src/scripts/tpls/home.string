@@ -23,19 +23,19 @@
     </header>
     <section>
       <ul id="home-nav">
-        <li>
+        <li action-type="detail">
           <i><img src="images/home_wine_icon.png" alt="" /></i>
           <b>葡萄酒</b>
         </li>
-        <li>
+        <li action-type="detail">
           <i><img src="images/home_beer_icon.png" alt="" /></i>
           <b>啤酒</b>
         </li>
-        <li>
+        <li action-type="detail">
           <i><img src="images/home_seafood_icon.png" alt="" /></i>
           <b>海鲜</b>
         </li>
-        <li>
+        <li action-type="detail">
           <i><img src="images/home_beef_icon.png" alt="" /></i>
           <b>牛肉</b>
         </li>
@@ -73,7 +73,7 @@
           <img src="images/biaoqian_goods_default.png" alt="" />
         </div>
         <ul>
-          <li class="winein" ms-repeat-el="livelist">
+          <li class="winein" ms-repeat-el="livelist" action-type="details">
             <i>
               <img ms-src="el.goods_img" alt="" />
             </i>
